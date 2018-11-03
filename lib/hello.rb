@@ -1,7 +1,7 @@
 def hello_t(names)
   names.each do |name |
     if name.starts_with?("T")
-      puts name
+      puts "Hi, #{name}"
     end
   end
 end
